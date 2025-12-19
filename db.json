@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "uname": "admin",
+      "uemail": "admin@example.com",
+      "umobile": "1234567890",
+      "upass": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "fecb",
+      "uname": "Sumit",
+      "uemail": "sumitmatale5646@gmail.com",
+      "umobile": "9356252018",
+      "upass": "sumit5646",
+      "role": "user"
+    }
+  ],
+  "food": [
+    {
+      "id": "1",
+      "fbname": "Sample Restaurant",
+      "fname": "Pizza",
+      "fdis": "Delicious pizza with fresh ingredients.",
+      "fprice": "10",
+      "fadd": "123 Main St",
+      "fphone": "9876543210",
+      "fimage": "food1.jpg",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "flocation": "https://www.google.com/maps/search/?api=1&query=40.7128,-74.0060"
+    },
+    {
+      "id": "2",
+      "fbname": "Food Bank Center",
+      "fname": "Rice & Beans",
+      "fdis": "Nutritious and filling meal for families.",
+      "fprice": "5",
+      "fadd": "456 Oak Avenue",
+      "fphone": "9876543211",
+      "fimage": "food2.jpg",
+      "latitude": 40.7489,
+      "longitude": -73.968,
+      "flocation": "https://www.google.com/maps/search/?api=1&query=40.7489,-73.9680"
+    },
+    {
+      "id": "3",
+      "fbname": "Community Kitchen",
+      "fname": "Chicken Biryani",
+      "fdis": "Traditional biryani with aromatic spices.",
+      "fprice": "12",
+      "fadd": "789 Park Road",
+      "fphone": "9876543212",
+      "fimage": "food3.jpg",
+      "latitude": 40.7614,
+      "longitude": -73.9776,
+      "flocation": "https://www.google.com/maps/search/?api=1&query=40.7614,-73.9776"
+    },
+    {
+      "id": "4",
+      "fbname": "Vegetarian Delight",
+      "fname": "Paneer Curry",
+      "fdis": "Creamy paneer curry with fresh vegetables.",
+      "fprice": "8",
+      "fadd": "321 Green Lane",
+      "fphone": "9876543213",
+      "fimage": "food4.jpg",
+      "latitude": 40.7505,
+      "longitude": -73.9972,
+      "flocation": "https://www.google.com/maps/search/?api=1&query=40.7505,-73.9972"
+    },
+    {
+      "id": "5",
+      "fbname": "Quick Bites Cafe",
+      "fname": "Samosas",
+      "fdis": "Crispy samosas with tamarind chutney.",
+      "fprice": "3",
+      "fadd": "654 Market Street",
+      "fphone": "9876543214",
+      "fimage": "food5.jpg",
+      "latitude": 40.7549,
+      "longitude": -73.984,
+      "flocation": "https://www.google.com/maps/search/?api=1&query=40.7549,-73.9840"
+    },
+    {
+      "id": "6",
+      "fbname": "Noodle House",
+      "fname": "Fried Noodles",
+      "fdis": "Stir-fried noodles with vegetables and sauce.",
+      "fprice": "6",
+      "fadd": "987 Commercial Blvd",
+      "fphone": "9876543215",
+      "fimage": "food6.jpg",
+      "latitude": 40.7282,
+      "longitude": -73.7949,
+      "flocation": "https://www.google.com/maps/search/?api=1&query=40.7282,-73.7949"
+    },
+    {
+      "id": "7",
+      "fbname": "Bread Bakery",
+      "fname": "Whole Wheat Bread",
+      "fdis": "Fresh baked whole wheat bread daily.",
+      "fprice": "2",
+      "fadd": "147 Baker Street",
+      "fphone": "9876543216",
+      "fimage": "food7.jpg",
+      "latitude": 40.7309,
+      "longitude": -73.9352,
+      "flocation": "https://www.google.com/maps/search/?api=1&query=40.7309,-73.9352"
+    }
+  ],
+  "shelter": [
+    {
+      "id": "1",
+      "hname": "Sample Home",
+      "hdis": "Comfortable home for rent.",
+      "haddress": "456 Elm St",
+      "hphone": "9876543210",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.7580,-73.9855",
+      "image": "building2.jpg",
+      "latitude": 40.758,
+      "longitude": -73.9855
+    },
+    {
+      "id": "2",
+      "hname": "Modern Apartment",
+      "hdis": "Fully furnished apartment near city center.",
+      "haddress": "789 Central Plaza",
+      "hphone": "9876543221",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.7549,-73.9840",
+      "image": "building3.jpg",
+      "latitude": 40.7549,
+      "longitude": -73.984
+    },
+    {
+      "id": "3",
+      "hname": "Cozy Studio Flat",
+      "hdis": "Studio flat suitable for singles or couples.",
+      "haddress": "321 West End",
+      "hphone": "9876543222",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.7489,-73.9680",
+      "image": "building4.jpg",
+      "latitude": 40.7489,
+      "longitude": -73.968
+    },
+    {
+      "id": "4",
+      "hname": "Family House",
+      "hdis": "Spacious house perfect for families.",
+      "haddress": "654 Riverside Drive",
+      "hphone": "9876543223",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.7282,-73.7949",
+      "image": "building5.jpg",
+      "latitude": 40.7282,
+      "longitude": -73.7949
+    },
+    {
+      "id": "5",
+      "hname": "Budget Hostel",
+      "hdis": "Affordable hostel accommodation for travelers.",
+      "haddress": "147 Station Road",
+      "hphone": "9876543224",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.7614,-73.9776",
+      "image": "building6.jpg",
+      "latitude": 40.7614,
+      "longitude": -73.9776
+    },
+    {
+      "id": "6",
+      "hname": "Shared Accommodation",
+      "hdis": "Shared living space with common facilities.",
+      "haddress": "258 Student Quarter",
+      "hphone": "9876543225",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.8076,-73.9626",
+      "image": "building7.jpg",
+      "latitude": 40.8076,
+      "longitude": -73.9626
+    },
+    {
+      "id": "7",
+      "hname": "Senior Living Home",
+      "hdis": "Safe and comfortable home for senior citizens.",
+      "haddress": "369 Care Lane",
+      "hphone": "9876543226",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.7505,-73.9972",
+      "image": "building8.jpg",
+      "latitude": 40.7505,
+      "longitude": -73.9972
+    },
+    {
+      "id": "8",
+      "hname": "Emergency Shelter",
+      "hdis": "Temporary shelter with basic amenities.",
+      "haddress": "741 Safety Boulevard",
+      "hphone": "9876543227",
+      "hlocation": "https://www.google.com/maps/search/?api=1&query=40.7128,-74.0060",
+      "image": "building9.jpg",
+      "latitude": 40.7128,
+      "longitude": -74.006
+    }
+  ],
+  "feedback": [
+    {
+      "id": "1765952013888",
+      "name": "admin",
+      "email": "admin@example.com",
+      "phone": "9356252018",
+      "subject": "Not good food delivery ",
+      "message": "life is good \n",
+      "userId": "1",
+      "userName": "admin",
+      "userEmail": "admin@example.com",
+      "createdAt": "2025-12-17T06:13:33.888Z",
+      "status": "new"
+    }
+  ]
+}

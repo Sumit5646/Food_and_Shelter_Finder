@@ -1,0 +1,43 @@
+.about-page { min-height: 100vh; display: flex; flex-direction: column; }
+
+.navbar { background-color: var(--card) !important; box-shadow: 0 2px 6px rgba(16,24,40,0.06); }
+.navbar-brand { color: var(--text) !important; font-weight: 700; font-size: 1.3rem; }
+.navbar-nav .nav-link { color: var(--muted) !important; }
+
+.page-header { background: linear-gradient(135deg, var(--brand) 0%, #10b981 100%); color: white; padding: 3rem 0; text-align: center; }
+.page-header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; font-weight: 800; }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 3rem 1rem; flex-grow: 1; }
+
+.content-section { margin-bottom: 3rem; }
+.content-section h2 { font-size: 1.8rem; margin-bottom: 1rem; color: var(--text); }
+.content-section p { color: var(--muted); line-height: 1.7; margin-bottom: 1rem; }
+
+.benefits-list { list-style: none; padding: 0; }
+.benefits-list li { padding: 0.5rem 0 0.5rem 1.5rem; position: relative; color: var(--muted); }
+.benefits-list li:before { content: "✓"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+
+.team-section { margin-bottom: 3rem; }
+.team-section h2 { font-size: 1.8rem; margin-bottom: 2rem; color: var(--text); }
+
+.team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+
+.team-member { background: var(--card); padding: 2rem; border-radius: var(--radius); text-align: center; box-shadow: 0 4px 12px rgba(15,23,42,0.06); transition: transform 0.3s ease; }
+.team-member:hover { transform: translateY(-5px); }
+
+.member-avatar { font-size: 3rem; margin-bottom: 1rem; }
+.team-member h3 { margin-bottom: 0.5rem; color: var(--text); }
+.team-member p { color: var(--muted); }
+
+.contact-options { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1.5rem; }
+.contact-btn { background: var(--brand); color: white; padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; }
+.contact-btn:hover { opacity: 0.9; transform: translateY(-2px); }
+
+.footer { background: #0f172a; color: white; padding: 2rem 0; text-align: center; margin-top: auto; }
+.footer-links { display: flex; gap: 2rem; justify-content: center; margin-bottom: 1rem; flex-wrap: wrap; }
+.footer-links a { color: #e5e7eb; text-decoration: none; font-weight: 500; transition: color 0.3s ease; }
+.footer-links a:hover { color: #ffffff; text-decoration: underline; }
+.footer p { color: #d1d5db; font-size: 0.9rem; margin: 0; }
+
+@media (max-width: 768px) { .page-header h1 { font-size: 1.8rem; } .container { padding: 2rem 1rem; } }
+

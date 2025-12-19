@@ -1,0 +1,210 @@
+/* Home Page Styles */
+.home-page { min-height: 100vh; display: flex; flex-direction: column; }
+
+.navbar {
+  background-color: var(--card) !important;
+  box-shadow: 0 2px 6px rgba(16, 24, 40, 0.06);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-brand { color: var(--text) !important; font-weight: 700; font-size: 1.3rem; }
+.navbar-nav .nav-link { color: var(--muted) !important; }
+.navbar-nav .nav-link:hover { color: var(--brand) !important; }
+
+.btn-logout {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.btn-logout:hover { background: #dc2626; }
+
+/* Welcome Section */
+.welcome-section {
+  background: linear-gradient(135deg, var(--brand) 0%, #10b981 100%);
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.welcome-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+}
+
+.user-name { color: #fbbf24; }
+
+.welcome-section p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* Services Grid */
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 3rem 1rem;
+  flex-grow: 1;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.service-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 35px rgba(15, 23, 42, 0.12);
+}
+
+.service-card .card-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 280px;
+}
+
+.service-card .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.service-card:hover .card-image { transform: scale(1.08); }
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.service-card:hover .card-overlay { opacity: 1; }
+
+.card-cta {
+  background: var(--brand);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.card-cta:hover {
+  background: #1d4ed8;
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content h3 {
+  margin: 0 0 0.75rem 0;
+  color: var(--text);
+  font-size: 1.3rem;
+}
+
+.card-content p {
+  color: var(--muted);
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.card-stats {
+  display: flex;
+  gap: 1rem;
+}
+
+.stat {
+  font-size: 0.85rem;
+  background: var(--bg);
+  color: var(--muted);
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+}
+
+/* Loading State */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: var(--muted);
+}
+
+/* Footer */
+.footer {
+  background: #0f172a;
+  color: white;
+  padding: 2rem 0 1rem;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a, .footer-links button {
+  color: #e5e7eb;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.footer-links a:hover, .footer-links button:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer p {
+  color: #9ca3af;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .welcome-content h1 { font-size: 1.8rem; }
+  .welcome-section { padding: 2rem 0; }
+  .container { padding: 2rem 0.5rem; }
+  .services-grid { gap: 1rem; grid-template-columns: 1fr; }
+  .service-card .card-image-wrapper { height: 220px; }
+  .footer-links { flex-direction: column; gap: 1rem; }
+}
